@@ -300,7 +300,7 @@ a:focus {
 }
 
 .impress-enabled #impress {
-  pointer-events: auto
+  pointer-events: auto;
 }
 
 body #impress #TUSec {
@@ -310,22 +310,42 @@ body #impress #TUSec {
   max-height: 700px;
   max-width: 700px;
   background-size: cover;
-  border-radius: 50px 50px 200px 50px;
+  border-radius: 10px;
 }
 
-body #impress #Introduction h1 {
+body #impress #Introduction {
+  background-color: #eee;
+  padding: 50px;
+}
+
+body #impress h1 {
   font-familY: 'Droid Sans', sans-serif;
-  font-size: 45px;
-  letter-spacing: 2px;
+  font-size: 75px;
+  letter-spacing: 4px;
   text-align: center;
-  margin-bottom: 30px;
+  margin-top: 5px;
+  margin-bottom: 100px;
+  font-weight: 600;
   color: #9E1B34;
+}
+
+body #impress #Introduction h2 {
+  text-align: center;
+  margin: 0;
 }
 
 body #impress #Introduction img {
   height: 300px;
   width: 400px;
-  position: absolute;
-  right: 100px;
-  top: 100px;
+  text-align: center;
+  margin-left: 24%;
+}
+
+body #impress li {
+  font-size: 28px; 
+  margin-bottom: 40px;
+  margin-left: 30px;
+  letter-spacing: 0px;
+  list-style: url('../img/kevinm.gif');
+  list-style-position:outside;
 }
