@@ -132,12 +132,12 @@ body {
   font-family: 'PT Sans', sans-serif;
   min-height: 740px;
   background: rgb(139, 139, 131);
-  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(139, 139, 131)), to(rgb(0, 0, 0)));
-  background: -webkit-radial-gradient(rgb(139, 139, 131), rgb(0, 0, 0));
-  background: -moz-radial-gradient(rgb(139, 139, 131), rgb(0, 0, 0));
-  background: -ms-radial-gradient(rgb(139, 139, 131)), rgb(0, 0, 0));
-  background: -o-radial-gradient(rgb(139, 139, 131), rgb(0, 0, 0));
-  background: radial-gradient(rgb(139, 139, 131), rgb(0, 0, 0));
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(139, 139, 131)), to(rgb(255, 255, 255)));
+  background: -webkit-radial-gradient(rgb(139, 139, 131), rgb(139, 137, 137));
+  background: -moz-radial-gradient(rgb(139, 139, 131), rgb(139, 137, 137));
+  background: -ms-radial-gradient(rgb(139, 139, 131)), rgb(139, 2137, 137));
+  background: -o-radial-gradient(rgb(139, 139, 131), rgb(139, 137, 137));
+  background: radial-gradient(rgb(139, 139, 131), rgb(31, 24, 24));
 }
 
 b,
@@ -348,4 +348,8 @@ body #impress li {
   letter-spacing: 0px;
   list-style: url('../img/kevinm.gif');
   list-style-position:outside;
+}
+
+.small {
+ font-size: 32px; 
 }
